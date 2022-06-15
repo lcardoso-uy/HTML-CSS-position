@@ -45,6 +45,10 @@ header h1 {
 main {
     margin: auto;
     text-align: center;
+    display: flex;
+
+
+    border: 5px solid black;
 }
 
 main article {
@@ -124,3 +128,14 @@ footer p {
 }
 
 
+@media (min-width: 768px) {main
+{ 
+    flex-wrap: wrap;    
+}
+}
+
+@media (min-width: 450px) {main
+    { 
+        flex-wrap: wrap;    
+    }
+    }
